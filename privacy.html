@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watershed Privacy Policy</title>
+<style>
+  :root {
+    --bg: #fcfbf8;
+    --ink: #1f2430;
+    --muted: #6b7180;
+    --accent: #2f6f5e;
+    --rule: #e4e1d8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181e;
+      --ink: #e8e6df;
+      --muted: #9aa0ab;
+      --accent: #6fbfa8;
+      --rule: #2c313a;
+    }
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0 16px;
+  }
+  main { max-width: 38rem; margin: 8vh auto 6rem; }
+  h1 { font-size: 1.7rem; letter-spacing: -0.01em; margin: 0 0 0.25rem; }
+  h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 2.25rem 0 0.5rem;
+  }
+  .tag { color: var(--muted); font-size: 0.9rem; margin: 0 0 2rem; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="tag">Watershed · Last updated October 22, 2026</p>
+
+  <p>Watershed is a personal, single-user application. Its only user is its
+  owner and developer. It has no customers, no accounts, and no public
+  access. This policy exists to describe, plainly, what the application does
+  with data.</p>
+
+  <h2>What data it accesses</h2>
+  <p>With the owner's explicit consent through Google's OAuth flow, Watershed
+  accesses the owner's own Gmail mailbox via the Gmail API: reading messages,
+  applying labels, creating drafts, and sending mail from the owner's
+  address. It accesses no one else's Google data.</p>
+
+  <h2>How the data is used and stored</h2>
+  <p>Mail data is copied into a local database on hardware the owner
+  physically controls, where it is summarized and turned into personal
+  to-dos. Processing happens locally. Data is retained at the owner's
+  discretion and can be deleted by the owner at any time.</p>
+
+  <h2>Sharing</h2>
+  <p>No data is sold, shared, or transferred to any third party. No
+  advertising, analytics, or tracking of any kind is involved. Use of
+  information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+  API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Revoking access</h2>
+  <p>Access can be revoked at any time from the Google Account
+  <a href="https://myaccount.google.com/permissions">third-party access
+  page</a>, which immediately invalidates the application's tokens.</p>
+
+  <h2>Contact</h2>
+  <p>Questions can be directed to the owner via
+  <a href="https://github.com/rodly">github.com/rodly</a>.</p>
+
+  <hr>
+  <p class="muted"><a href="index.html">Home</a></p>
+</main>
+</body>
+</html>

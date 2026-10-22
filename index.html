@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watershed</title>
+<style>
+  :root {
+    --bg: #fcfbf8;
+    --ink: #1f2430;
+    --muted: #6b7180;
+    --accent: #2f6f5e;
+    --rule: #e4e1d8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181e;
+      --ink: #e8e6df;
+      --muted: #9aa0ab;
+      --accent: #6fbfa8;
+      --rule: #2c313a;
+    }
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0 16px;
+  }
+  main { max-width: 38rem; margin: 10vh auto 6rem; }
+  h1 {
+    font-size: 2rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.25rem;
+  }
+  .tag {
+    color: var(--muted);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 2rem;
+  }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Watershed</h1>
+  <p class="tag">A personal, single-user data pipeline</p>
+  <p>Watershed is a private application built and operated by one person, for
+  that same person. It gathers the owner's own data — messages, email,
+  training, and finance streams — into local databases on the owner's own
+  hardware, where it is summarized and turned into to-dos.</p>
+  <p>It is not a product. There is no sign-up, no hosted service, and no way
+  for anyone other than its owner to use it.</p>
+  <hr>
+  <p class="muted"><a href="privacy.html">Privacy policy</a> ·
+  Maintained by <a href="https://github.com/rodly">rodly</a></p>
+</main>
+</body>
+</html>
